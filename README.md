@@ -2,7 +2,7 @@
 #  Kuraz Tasks API  
  task manager built with Django REST Framework*  
 
-Need a simple way to track tasks? This lightweight API lets you create, complete, and delete tasks with straightforward HTTP requests. Perfect for small projects or learning REST APIs!
+It's just a demo for task management which implement only the following API End points and have a simple home Page
 
 ---
 
@@ -15,7 +15,7 @@ Need a simple way to track tasks? This lightweight API lets you create, complete
 [
     {
         "id": 1,
-        "title": "Walk the dog",
+        "title": "Task 1",
         "completed": false,
         "created_at": "2023-08-25T09:30:00Z"
     }
@@ -27,14 +27,14 @@ Need a simple way to track tasks? This lightweight API lets you create, complete
 *Send this:*  
 ```json
 {
-    "title": "Buy milk",
+    "title": "task 2",
     "description": "Almond milk, 1L"
 }
 ```response
 ```json
 {
     "id": 2,
-    "title": "Buy milk",
+    "title": "task 2",
     "completed": false,
     "created_at": "2023-08-25T10:15:00Z"
 }
@@ -55,7 +55,7 @@ Need a simple way to track tasks? This lightweight API lets you create, complete
 ### Setup in 3 steps:  
 1. **Clone & install**  
    ```bash
-   git clone https://github.com/yourusername/kuraz.git
+   git clone https://github.com/yared-Habtamu/kuraz.git
    cd kuraz
    pip install -r requirements.txt
    ```
