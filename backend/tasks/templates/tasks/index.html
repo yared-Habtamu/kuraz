@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>yared's api</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        .status {
+            color: #27ae60;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        .endpoints {
+            margin: 30px auto;
+            width: 300px;
+            text-align: left;
+        }
+        .endpoint {
+            margin: 10px 0;
+            padding: 8px;
+            background: #f2f2f2;
+            border-radius: 4px;
+        }
+        .method {
+            font-weight: bold;
+        }
+        .get { color: #27ae60; }
+        .post { color: #2980b9; }
+        .put { color: #f39c12; }
+        .delete { color: #e74c3c; }
+    </style>
+</head>
+<body>
+    <h1>Kuraztech</h1>
+    <p class="status">API is running</p>
+
+    <div class="endpoints">
+        <div class="endpoint">
+            <span class="method get">GET</span> /api/tasks/
+        </div>
+        <div class="endpoint">
+            <span class="method post">POST</span> /api/tasks/
+        </div>
+        <div class="endpoint">
+            <span class="method put">PUT</span> /api/tasks/&lt;id&gt;/
+        </div>
+        <div class="endpoint">
+            <span class="method delete">DELETE</span> /api/tasks/&lt;id&gt;/
+        </div>
+    </div>
+</body>
+</html>
