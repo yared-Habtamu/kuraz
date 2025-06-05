@@ -28,7 +28,7 @@ It's just a demo for task management which implement only the following API End 
 ```json
 {
     "title": "task 2",
-    "description": "Almond milk, 1L"
+    "description": "bla bla"
 }
 ```response
 ```json
